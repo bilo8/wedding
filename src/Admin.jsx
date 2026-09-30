@@ -108,7 +108,7 @@ ${link}`;
     };
 
     const copyGuestLink = async (guest) => {
-        const link = `${window.location.origin}/?id=${guest.id}`;
+        const link = `https://wedding-dun-two.vercel.app/?id=${guest.id}`;
 
         await navigator.clipboard.writeText(link);
 
