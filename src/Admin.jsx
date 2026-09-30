@@ -25,7 +25,7 @@ function Admin() {
     }, [isAuthenticated]);
 
     const shareOnWhatsApp = (guest) => {
-        const link = `${window.location.origin}/?id=${guest.id}`;
+        const link = `https://wedding-dun-two.vercel.app/?id=${guest.id}`;
 
         const message = `Hello ${guest.name} 
 
